@@ -48,6 +48,7 @@ class Solution {
             // Song 클래스에 compareTo를 정의해 뒀기 때문에 동작 가능 
             Collections.sort(songs); 
             
+            // 장르별로 가장 많이 재샌된 노래 최대 두개 까지 모아 베스트 앨범 출시 조건 
             answerList.add(songs.get(0).id);
             if(songs.size() > 1){
                 answerList.add(songs.get(1).id);
