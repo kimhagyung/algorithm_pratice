@@ -8,3 +8,10 @@ https://school.programmers.co.kr/learn/courses/30/lessons/425840
 **Stack (스택) → 후입선출 (LIFO)**
 * 나중에 들어간 게 먼저 나옴
 * 쌓는 구조
+
+<br>
+
+| 구조    | 넣기          | 빼기   | 조회   |
+| ----- | ----------- | ---- | ---- |
+| Queue | add / offer | poll | peek |
+| Stack | push        | pop  | peek |
